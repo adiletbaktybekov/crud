@@ -1,0 +1,25 @@
+table {
+   width: 100%;
+   border-collapse: collapse;
+   border: 1px solid grey;
+}
+
+th {
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 15px;
+   color: #ACACAC;
+   min-width: 100px;
+   border: 1px solid grey;
+   text-align: left;
+   padding: 5px;
+}
+
+th:first-child {
+   min-width: 20px;
+}
+
+td {
+   border: 1px solid grey;
+   padding: 5px;
+}
